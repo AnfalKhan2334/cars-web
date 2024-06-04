@@ -1,0 +1,155 @@
+body{
+    color: rgb(234, 213, 22);
+    background-color:black ;
+    margin: 2%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#welcome{
+    font-size: xx-large;
+    font-family: fantasy;
+    /* border: 1px solid rgb(14, 2, 71); */
+    margin-bottom: 4%;
+    width: 350px;
+    height: 350px;
+    /* background-color: red; */
+    transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+#welcome:hover{
+    width: 99%;
+}
+#mycar{
+    color:cornflowerblue ;
+}
+.img1{
+    margin-left: -80%;
+    border-radius: 50%;
+    /* margin-top: -70%; */
+}
+.cars{
+    margin-left: -80%;
+    text-decoration: underline;
+    margin-bottom : -3%;
+}
+#head{
+    /* display: inline-flex; */
+    /* margin-left: -70px; */
+    padding: 2%;
+    width: 60%;
+    margin-bottom: 3%;
+    border: 1px solid blue;
+}
+#links{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.home{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.lambo{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.rolce{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.merce{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.audi{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.bmw{ 
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.img2{
+    margin-left: -80%;
+    margin-top: 5%;
+    border-radius: 20%;
+    border: 1px solid blue;
+}
+.ak{
+    margin-left: -70%;
+    margin-top: 3%;
+    font-size:  xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ak1{
+    color:cornflowerblue ;
+}
+.skills{
+    
+    margin-left: -90%;
+    margin-top: 3%;
+}
+.contact{
+    color: whitesmoke;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+    margin-left: -80%;
+    margin-top: 3%;
+}
+
+.lambologo{
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+.rollslogo{
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+.mercelogo{
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+.audilogo{
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+.bmwlogo{
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+
+/* @media screen and (max-width : 700px){
+    body{
+        height: auto;
+        overflow: auto;
+        width: fit-content;
+        background-color: rgb(29, 29, 75);
+    }
+} */
